@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(0, 123, 123);
+    background-image: linear-gradient( rgb(3, 96, 226), rgb(0, 23, 87) );
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    height: 700px;
+    width: 300px;
+    background-color: #222;
+    padding: 20px;    
+    border-radius: 40px;
+    filter: sepia(20%);
+    border: solid gray 2px;
+    background-image: linear-gradient(rgb(47, 47, 47), rgb(24, 24, 24) );
+    box-shadow: 
+    0 0 70px #000000 inset,
+    0 0 100px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+   
+}
+
+.circle{
+width: 200px;
+height: 200px;
+padding: 5px;
+border-radius: 50%;
+
+
+}
+
+
+#red{
+    background-color: rgb(39, 0, 0);
+   
+    background-image: radial-gradient(brown, transparent);
+    background-size: 5px 5px;
+   
+    box-shadow: 
+    0 0 60px #111 inset,
+    0 0 10px rgb(60, 0, 0);
+}
+
+
+#yellow{
+    background-color: rgb(39, 39, 0);
+    
+    background-image: radial-gradient(orange, transparent);
+    background-size: 5px 5px;
+  
+    box-shadow: 
+    0 0 60px #111 inset,
+    0 0 10px rgb(61, 61, 0);
+}
+
+
+#green{
+    background-color: rgb(0, 67, 0);
+   
+    background-image: radial-gradient(rgb(0, 124, 0), transparent);
+  background-size: 5px 5px;
+  
+  box-shadow: 
+    0 0 60px #111 inset,
+    0 0 10px rgb(0, 42, 0);
+}
+
+#red.circle.active{
+    background-color: rgb(255, 0, 0);
+   
+    background-image: radial-gradient(brown, transparent);
+    background-size: 5px 5px;
+    border: dotted 2px darkred;
+    box-shadow: 
+    0 0 60px #111 inset,
+    0 0 10px rgb(244, 1, 1);
+}
+
+
+#yellow.circle.active{
+    background-color: yellow;
+    
+    background-image: radial-gradient(orange, transparent);
+    background-size: 5px 5px;
+    border: dotted 2px darkorange;
+    box-shadow: 
+    0 0 60px #111 inset,
+    0 0 10px yellow;
+}
+
+
+#green.circle.active{
+    background-color: green;
+   
+    background-image: radial-gradient(lime, transparent);
+  background-size: 5px 5px;
+  border: dotted 2px darkgreen;
+  box-shadow: 
+    0 0 60px #111 inset,
+    0 0 10px lime;
+}
